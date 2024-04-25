@@ -21,7 +21,7 @@ ___
 Server running
 ![image](https://github.com/Happyman00/oblig3-data1700/assets/28388838/a3e8863a-bea5-4203-b9cc-9afd803a5de0)
 Main page
-
+![image](https://github.com/Happyman00/oblig3-data1700/assets/28388838/6cb22470-bd11-481b-bcfe-4f291e998d38)
 Network tab
 ![image](https://github.com/Happyman00/oblig3-data1700/assets/28388838/2029beff-f603-429c-87f0-dad3208803fc)
 ![image](https://github.com/Happyman00/oblig3-data1700/assets/28388838/092ef712-b758-4f74-a149-0f8ebfba050c)
