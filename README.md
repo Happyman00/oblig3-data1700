@@ -17,6 +17,7 @@ Det er brukt litt jQuery for å forhindre at formen forfrisker siden, men istede
 
 Validering av inndataen skjer ved bruk av pattern attributen i input-elementene, og ved å bruke ulike typer input-felt (som f.eks. Email). Mulig forbedring for videre utvikling er flere steg med grundigere validering.
 
+Foreløpig koblet opp mot en lokal database, men med lett mulighet for å forandre til ekstern løsning.
 ___
 ## Server running
 
