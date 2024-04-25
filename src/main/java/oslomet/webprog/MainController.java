@@ -18,13 +18,13 @@ public class MainController {
         return repo.getTickets();
     }
 
-    @PostMapping("/register")
+    @PostMapping("/ticket")
     public void addTicket(Ticket ticket)
     {
         repo.addTicket(ticket);
     }
 
-    @DeleteMapping("/deleteAll")
+    @GetMapping("/deleteAll")
     public void deleteAll()
     {
         repo.deleteAll();

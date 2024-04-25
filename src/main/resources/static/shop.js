@@ -18,7 +18,7 @@ function addTickets(){
         "telephone":form.elements[4].value,
         "email":form.elements[5].value
     }
-    $.post("/register",ticket,function() {
+    $.post("/ticket",ticket,function() {
         updateList();
     });
 }
@@ -32,13 +32,11 @@ function removeAllTickets()
 function updateList(){
     $.get("/tickets", function (ticketArray)
     {
-        document.getElementById("tickets").innerHTML="";
+        document.getElementById("tickets").innerHTML="<tr><th>Movie</th><th>Amount</th><th>First Name</th><th>Last Name</th><th>Telephone</th><th>Email</th></tr>";
         for (let ticket of ticketArray) {
-            let listItem = document.createElement("li");
-            let ticketDetails = document.createElement("p");
-            ticketDetails.innerHTML="<b>Film:</b>"+ticket.movie+" - <b>Antall:</b>"+ticket.amount+" - <b>Navn:</b>"+ticket.fName+" "+ticket.lName+" - <b>Telefon-nummer:</b>"+ticket.telephone+" - <b>Epost:</b>"+ticket.email;
-            listItem.appendChild(ticketDetails);
-            document.getElementById("tickets").appendChild(listItem);
+            let ticketDetails = document.createElement("tr");
+            ticketDetails.innerHTML="<th>"+ticket.movie+"</th>"+"<th>"+ticket.amount+"</th>"+"<th>"+ticket.fName+"</th>"+"<th>"+ticket.lName+"</th>"+"<th>"+ticket.telephone+"</th>"+"<th>"+ticket.email+"</th>";
+            document.getElementById("tickets").appendChild(ticketDetails);
         }
     });
 
