@@ -4,11 +4,13 @@ OsloMet brukernavn: sahoe6668
 
 Studentnummer: 383048
 
+Fullt navn: Sander Olsen Hoel
+
 Github brukernavn: Happyman_00
 
 Github repo URL: https://github.com/Happyman00/oblig3-data1700
 
-Fullt navn: Sander Olsen Hoel
+Youtube URL: https://youtu.be/R3D9x71gPaE?si=djfCF5e4xNOHpny1
 
 Kort beskrivelse av applikasjon:
 ___
